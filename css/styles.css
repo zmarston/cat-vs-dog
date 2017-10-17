@@ -1,4 +1,7 @@
-
+body {
+  background-color: #f7d06e;
+  font-family: 'Fascinate Inline', cursive;
+}
 
 img {
   width: 300px
@@ -34,11 +37,13 @@ button {
   font-size: 18px;
   color: darkblue;
   font-weight: 700;
+  letter-spacing: 5px;
 }
 .cattag {
   font-size: 15px;
-  color: pink;
+  color: red;
   font-style: italic;
+  letter-spacing: 5px;
 }
 .display-3 {
   text-align: center;
@@ -53,4 +58,16 @@ margin-right: auto;
 }
 #dogpic {
   padding-bottom: 85px;
+}
+.orange {
+  color: orange;
+}
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.jumbotron p {
+  color: #D2691E;
 }
