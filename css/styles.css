@@ -1,0 +1,15 @@
+img {
+  width: 300px
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bone-showing {
+  display: none;
+}
+
+.bird-showing {
+  display: none;
+}
