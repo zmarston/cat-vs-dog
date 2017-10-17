@@ -21,4 +21,12 @@ $(document).ready(function() {
   $("img#birdpic").click(function() {
     $("ul.cattag").prepend("<li>Prrrrrrr</li>");
   });
+  $("img#bearpic").click(function() {
+    $("li").remove();
+    $(".bird-showing").toggle();
+    $(".bird-hidden").toggle();
+    $(".bone-showing").toggle();
+    $(".bone-hidden").toggle();
+
+  });
 });

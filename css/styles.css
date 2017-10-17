@@ -1,5 +1,11 @@
+
+
 img {
   width: 300px
+}
+p {
+  text-align: center;
+  font-size: 22px;
 }
 
 ul {
@@ -12,4 +18,39 @@ ul {
 
 .bird-showing {
   display: none;
+}
+
+#bearpic {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dogtag {
+  font-size: 18px;
+  color: darkblue;
+  font-weight: 700;
+}
+.cattag {
+  font-size: 15px;
+  color: pink;
+  font-style: italic;
+}
+.display-3 {
+  text-align: center;
+}
+.col-md-6 img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.col-md-6 li{
+  text-align: center;
+}
+#dogpic {
+  padding-bottom: 85px;
 }
