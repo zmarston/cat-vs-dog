@@ -4,7 +4,8 @@ body {
 }
 
 img {
-  width: 300px
+  width: 300px;
+  cursor: pointer;
 }
 p {
   text-align: center;
@@ -27,11 +28,13 @@ ul {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  cursor: pointer;
 }
 button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 .dogtag {
   font-size: 18px;
@@ -70,4 +73,11 @@ margin-right: auto;
 }
 .jumbotron p {
   color: #D2691E;
+}
+.jumbotron {
+  margin-top: 40px;
+  border: 5px;
+  border-style: dotted;
+  border-color: blue;
+  border-radius: 50px;
 }
